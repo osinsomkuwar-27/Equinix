@@ -17,75 +17,135 @@ function Footer() {
             </p>
           </div>
           <div className="col text-muted" style={{ textDecoration: "none" }}>
-            <p>Account</p>
-            <a href="">Open demat account</a>
+            <p className="">Account</p>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Open demat account
+            </a>
             <br />
-            <a href="">Minor demat account</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Minor demat account
+            </a>
             <br />
-            <a href="">NRI demat account</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              NRI demat account
+            </a>
             <br />
-            <a href="">Commodity</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Commodity
+            </a>
             <br />
-            <a href="">Dematerialisation</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Dematerialisation
+            </a>
             <br />
-            <a href="">Fund transfer</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Fund transfer
+            </a>
             <br />
-            <a href="">MTF</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              MTF
+            </a>
             <br />
-            <a href="">Referral program</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Referral program
+            </a>
             <br />
           </div>
-          <div className="col text-muted" style={{ textDecoration: "none" }}>
+          <div className="col text-muted">
             <p>Support</p>
-            <a href="">Support portal</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Support portal
+            </a>
             <br />
-            <a href="">Contact us</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Contact us
+            </a>
             <br />
-            <a href="">How to file a complaint?</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              How to file a complaint?
+            </a>
             <br />
-            <a href="">Status of your complaints</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Status of your complaints
+            </a>
             <br />
-            <a href="">Bulletin</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Bulletin
+            </a>
             <br />
-            <a href="">Circular</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Circular
+            </a>
             <br />
-            <a href="">Z-Connect blog</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Z-Connect blog
+            </a>
             <br />
-            <a href="">Downloads</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Downloads
+            </a>
             <br />
           </div>
-          <div className="col text-muted" style={{ textDecoration: "none" }}>
+          <div className="col text-muted">
             <p>Company</p>
-            <a href="">About</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              About
+            </a>
             <br />
-            <a href="">Philosophy</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Philosophy
+            </a>
             <br />
-            <a href="">Press & media</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Press & media
+            </a>
             <br />
-            <a href="">Careers</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Careers
+            </a>
             <br />
-            <a href="">Zerodha Cares (CSR)</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Zerodha Cares (CSR)
+            </a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Zerodha.tech
+            </a>
             <br />
-            <a href="">Open source</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Open source
+            </a>
             <br />
           </div>
-          <div className="col text-muted" style={{ textDecoration: "none" }}>
+          <div className="col text-muted">
             <p>Quick links</p>
-            <a href="">Upcoming IPOs</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Upcoming IPOs
+            </a>
             <br />
-            <a href="">Brokerage charges</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Brokerage charges
+            </a>
             <br />
-            <a href="">Market holidays</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Market holidays
+            </a>
             <br />
-            <a href="">Economic calendar</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Economic calendar
+            </a>
             <br />
-            <a href="">Calculators</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Calculators
+            </a>
             <br />
-            <a href="">Markets</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Markets
+            </a>
             <br />
-            <a href="">Sectors</a>
+            <a href="" style={{ textDecoration: "none", color: "grey" }}>
+              Sectors
+            </a>
             <br />
           </div>
         </div>
@@ -98,19 +158,32 @@ function Footer() {
             Registration no.: INZ000038238 Registered Address: Equinix Broking
             Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public
             School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India.
-            For any complaints pertaining to securities broking please write to
-            complaints@equinix.com , for DP related to dp@equinix.com . Please
-            ensure you carefully read the Risk Disclosure Document as prescribed
-            by SEBI | ICF
+            For any complaints pertaining to securities broking please write to{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              complaints@equinix.com
+            </a>
+            , for DP related to{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              dp@equinix.com
+            </a>
+            . Please ensure you carefully read the Risk Disclosure Document as
+            prescribed by SEBI | ICF
             <p />
             <p>
-              Procedure to file a complaint on SEBI SCORES: Register on SCORES
-              portal. Mandatory details for filing complaints on SCORES: Name,
-              PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
-              Communication, Speedy redressal of the grievances
+              Procedure to file a complaint on{" "}
+              <a href="" style={{ textDecoration: "none" }}></a>SEBI SCORES:
+              Register on SCORES portal. Mandatory details for filing complaints
+              on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits:
+              Effective Communication, Speedy redressal of the grievances
             </p>
             <p>
-              Smart Online Dispute Resolution | Grievances Redressal Mechanism
+              <a href="" style={{ textDecoration: "none" }}>
+                Smart Online Dispute Resolution
+              </a>{" "}
+              |{" "}
+              <a href="" style={{ textDecoration: "none" }}>
+                Grievances Redressal Mechanism
+              </a>
             </p>
             <p>
               Investments in securities market are subject to market risks; read
@@ -132,8 +205,10 @@ function Footer() {
               statement issued by NSDL/CDSL every month.
             </p>
             <p>
-              India's largest broker based on networth as per NSE. NSE broker
-              factsheet
+              India's largest broker based on networth as per NSE.{" "}
+              <a href="" style={{ textDecoration: "none" }}>
+                NSE broker factsheet
+              </a>
             </p>
             <p>
               "Prevent unauthorised transactions in your account. Update your
@@ -146,13 +221,17 @@ function Footer() {
               process again when you approach another intermediary."
             </p>
             <p></p>Dear Investor, if you are subscribing to an IPO, there is no
-            need to issue a cheque. Please write the Bank account number and
-            sign the IPO application form to authorize your bank to make payment
-            in case of allotment. In case of non allotment the funds will remain
-            in your bank account. As a business we don't give stock tips, and
-            have not authorized anyone to trade on behalf of others. If you find
+            need to issue a cheque.Please write the Bank account number and sign
+            the IPO application form to authorize your bank to make payment in
+            case of allotment.In case of non allotment the funds will remain in
+            your bank account. s a business we don't give stock tips, and have
+            not authorized anyone to trade on behalf of others.If you find
             anyone claiming to be part of Equinix and offering such services,
-            please create a ticket here.
+            please{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              create a ticket here
+            </a>
+            .
           </p>
         </div>
       </div>
