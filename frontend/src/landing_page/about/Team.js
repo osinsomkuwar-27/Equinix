@@ -3,12 +3,12 @@ import React from "react";
 function Team() {
   return (
     <div className="container">
-      <div className="row mt-5 p-5">
+      <div className="row mt-5 p-3">
         <h1 className=" text-center mb-5 ">People</h1>
       </div>
 
       <div
-        className="row mt-5 p-5  text-muted fs-6"
+        className="row mt-5 p-3  text-muted fs-6"
         style={{ lineHeight: "1.8", fontSize: "1.2rem" }}
       >
         <div className="col-6 mt-5 text-center">
@@ -31,7 +31,20 @@ function Team() {
             (SMAC) and the Market Data Advisory Committee (MDAC).
           </p>{" "}
           <p>Playing basketball is his zen.</p>{" "}
-          <p>Connect on Homepage / TradingQnA / Twitter</p>
+          <p>
+            Connect on{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              Homepage
+            </a>{" "}
+            /{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              TradingQnA
+            </a>{" "}
+            /{" "}
+            <a href="" style={{ textDecoration: "none" }}>
+              Twitter
+            </a>
+          </p>
         </div>
       </div>
     </div>
