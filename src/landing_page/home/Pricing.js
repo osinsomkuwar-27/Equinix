@@ -19,13 +19,13 @@ function Pricing() {
         <div className="col-md-7 d-flex justify-content-around flex-wrap">
         {/* Item 1 */}
         <div className="d-flex align-items-center mx-3">
-        <img src="media/images/pricing-eq.svg"></img>
+        <img src="media/images/pricingEquity.svg"></img>
         <p className="text-muted ms-2 mb-0">free account opening</p>
         </div>
 
         {/* Item 2 */}
         <div className="d-flex align-items-center mx-3">
-        <img src="media/images/pricing-eq.svg"></img>
+        <img src="media/images/pricingEquity.svg"></img>
         <p className="text-muted ms-2 mb-0">
           free equity &amp;mutuals
         </p>
