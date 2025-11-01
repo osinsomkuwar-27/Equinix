@@ -6,13 +6,14 @@ import Brokerage from './Brokerage';
 
 
 function PricingPage() {
-    return ( 
-        <>
-            <Hero/>
-            <OpenAccount/>
-            <Brokerage/>
-        </>
-     );
+    return (
+      <>
+        <Hero />
+        <OpenAccount />
+        <Brokerage />
+        
+      </>
+    );
 }
 
 export default PricingPage;
