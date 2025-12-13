@@ -1,12 +1,16 @@
 import React, { useState, useContext } from "react";
+
+import GeneralContext from "./GeneralContext";
+
 import { Tooltip, Grow } from "@mui/material";
+
 import {
   BarChartOutlined,
   KeyboardArrowDown,
   KeyboardArrowUp,
   MoreHoriz,
 } from "@mui/icons-material";
-import GeneralContext from "./GeneralContext";
+
 import { watchlist } from "../data/data";
 
 const WatchList = () => {
